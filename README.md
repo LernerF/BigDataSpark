@@ -1,12 +1,18 @@
 #### Лабораторную работу № 2 выполнил Лернер Феликс Леонидович, группа М8О-310Б-23.
 
-Запуск с выполнением ETL и созданием отчётов: `docker compose --profile run-etl up --build`.
+Запуск с выполнением ETL и созданием отчётов: 
 
-Запуск без выполнения ETL и создания отчётов: `docker compose up -d`.
+`docker compose --profile run-etl up --build`.
+
+Запуск без выполнения ETL и создания отчётов:
+
+`docker compose up -d`.
 
 Отчёты реализованы в системе *clickhouse*.
 
-Запуск командной строки clickhouse: `docker exec -it bigdata-clickhouse clickhouse-client --user clickhouse --password clickhouse`.
+Запуск командной строки clickhouse: 
+
+`docker exec -it bigdata-clickhouse clickhouse-client --user clickhouse --password clickhouse`.
 
 Список таблиц отчётов:
 
